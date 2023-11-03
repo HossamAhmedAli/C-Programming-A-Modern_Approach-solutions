@@ -9,7 +9,6 @@ int main(void)
 	{
 
 		printf("i: Insert ... s: search ... p: print ... u: update ...  t: terminate program \n");
-		fflush(stdout);
 		scanf("%s",&choice_input);
 
 		switch(choice_input)
@@ -28,8 +27,8 @@ int main(void)
 		case UPDATE:
 			update();
 			break;
-        case 't':
-            break;
+                case 't'   :
+                        break;
 
 		default:
 			printf("Invalid Input .. plz try again\n");
